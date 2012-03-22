@@ -15,6 +15,11 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
+// To get DATABASE_URL to work on Mac OSX you'll have to define it in
+//`/System/Library/LaunchDaemons/org.apache.httpd.plist`. Tyler's file can be found
+// here: https://gist.github.com/12d3d159af4d3c312828.
+// You'll also have to setup Postgres on your own machine and create a database
+// user and password for wordpress to use.
 $db = parse_url($_ENV["DATABASE_URL"]);
 
 /** The name of the database for WordPress */
