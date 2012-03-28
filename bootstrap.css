@@ -144,7 +144,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #005580;
+  color: #000000;
   text-decoration: underline;
 }
 .row {
@@ -2445,6 +2445,13 @@ input[type="submit"].btn.btn-mini {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+.nav-pills > li > a {
+  background-color: #efefef
+}
+.nav-pills > li > a:hover {
+  background-color: #555;
+  color: #F996C8;
+}
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #ffffff;
@@ -4131,9 +4138,9 @@ a.thumbnail:hover {
     width: 100%;
     min-height: 28px;
     /* Make inputs at least the height of their button counterpart */
-  
+
     /* Makes inputs behave like true block-level elements */
-  
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;

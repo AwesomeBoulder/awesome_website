@@ -13,3 +13,30 @@ hr.black-bar{
 section{
   padding-top:120px;
 }
+
+ul.nav.nav-pills{
+  width: 400px;
+  margin: 10px auto 20px;
+}
+ul.nav.nav-pills li{
+  margin-right: 10px;
+}
+.hero-unit h1{
+  margin-bottom:10px;
+}
+.hero-unit a.btn{
+  margin-top: 10px;
+}
+.inactive_container section{
+  display: none;
+}
+
+footer.footer{
+  margin-top: 200px
+}
+
+ol li{
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 27px;
+}
