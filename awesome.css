@@ -1,5 +1,8 @@
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative;
+}
 .page-container{
-  margin-top:120px;
+  margin-top:60px;
 }
 #overview{
   margin-bottom: 160px;
@@ -32,11 +35,14 @@ ul.nav.nav-pills li{
 }
 
 footer.footer{
-  margin-top: 200px
+  margin-top: 160px
 }
 
 ol li{
   font-size: 18px;
   font-weight: 200;
   line-height: 27px;
+}
+span.muted{
+  font-size: 13px;
 }

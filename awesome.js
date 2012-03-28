@@ -10,6 +10,7 @@ $(document).ready(function(){
     active.fadeOut(function(){
       $('.inactive_container').append(active.clone().wrap('<div>').parent().html());
       $('.active_container').html(section).find('section').fadeIn();
+      $('.apply').tooltip({placement: 'right'});
     })
     $(this).parents('ul').find('li').removeClass('active');
     $(this).parent().addClass('active');
