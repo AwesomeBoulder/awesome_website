@@ -1,6 +1,11 @@
 .navbar-fixed-top, .navbar-fixed-bottom {
   position: relative;
 }
+a.brand img{
+  height: 75px;
+  width: 250px;
+}
+
 .page-container{
   margin-top:60px;
 }
